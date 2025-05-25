@@ -11,7 +11,7 @@ int main() {
 		sal.Show("sal");
 
 		std::cout << "sal[38225] = " << sal[38225] << std::endl;
-		sal[38225] = sal[93]; // Ñîçäàñò ýëåìåíò 93 ñî çíà÷åíèåì 0.0
+		sal[38225] = sal[93]; // Ð¡Ð¾Ð·Ð´Ð°ÑÑ‚ ÑÐ»ÐµÐ¼ÐµÐ½Ñ‚ 93 ÑÐ¾ Ð·Ð½Ð°Ñ‡ÐµÐ½Ð¸ÐµÐ¼ 0.0
 		std::cout << "After the modification of sal:" << std::endl;
 		sal.Show("sal");
 
@@ -20,7 +20,7 @@ int main() {
 		sa2[222] = "Peter";
 		sa2[444] = "Ann";
 		sa2.Show("sa2");
-		sa2[222] = sa2[555]; // Ñîçäàñò ýëåìåíò 555 ñ ïóñòîé ñòðîêîé
+		sa2[222] = sa2[555]; // Ð¡Ð¾Ð·Ð´Ð°ÑÑ‚ ÑÐ»ÐµÐ¼ÐµÐ½Ñ‚ 555 Ñ Ð¿ÑƒÑÑ‚Ð¾Ð¹ ÑÑ‚Ñ€Ð¾ÐºÐ¾Ð¹
 		sa2.Show("sa2");
 	}
 	catch (const std::exception& e) {
